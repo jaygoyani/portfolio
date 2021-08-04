@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css'/>
-
-    <nav class="navbar navbar-expand-sm bg-light">
-    
-    <ul class="navbar-nav">
-      <li class="active nav-item"><a class="nav-link" href="#">Home</a></li>
-      <li class="active nav-item"><a class="nav-link" href="#">Page 1</a></li>
-      <li class="active nav-item"><a class="nav-link" href="#">Page 2</a></li>
-      <li class="active nav-item"><a class="nav-link" href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav>
+     <link rel="stylesheet" href="../stylesheets/style.css">
+     <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+     <div style= "background-color: #5317ab;">
+     <title>{{title}}</title>
+     <nav class="navbar navbar-default">
+      <div style="align-items: center;">
+        <div style = "display:inline-block; margin-left:10px;" class="navbar-header">
+          <a class="navbar-brand name" href="/" >Jay Goyani</a>
+        </div>
+        
+        <ul style ="display:inline-block;" class="nav navbar-nav">
+          <li style ="display:inline-block; margin-right:10px;" ><a class="name" href="/">Home</a></li>
+          <li style ="display:inline-block; margin-right:10px;"><a href="/project" class="name" >Project</a></li>
+          <li style ="display:inline-block; margin-right:10px;"><a href="/about" class="name" >About Me</a></li>
+          <li style ="display:inline-block; margin-right:10px;"><a href="/contact" class="name" >Contact Me</a></li>
+        </ul>
+      
+      </div>
+     </nav>
+     </div>
   </head>
   <body>
     {{{body}}}
+
+  <footer>
+    <div style=" background-color: #ebd261; padding : 10px; right:10px;">
+      <a href="https://github.com/jaygoyani/portfolio.git"><i style="font-size:24px" class="fa">&#xf092;</i></a> 
+      <a href="https://www.linkedin.com/in/jaygoyani/"><i style="font-size:24px" class="fa">&#xf08c;</i></a> 
+    </div>
+  </footer>
+    
   </body>
 </html>

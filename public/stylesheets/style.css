@@ -1,8 +1,16 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+a
+{
+  color: white;
+};
+
+.footer1 {
+  
+  background-color: rgb(165, 49, 49);
+  /*padding-bottom: 100px;
+  /*transition: 0.65s;*/
+
 }
 
-a {
-  color: #00B7FF;
+.name {
+  color:white;
 }
